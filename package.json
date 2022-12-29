@@ -13,7 +13,11 @@
 		"lint-fix": "eslint --fix --ext .js,.jsx,.ts,.tsx src/",
 		"pretty": "prettier src/",
 		"pretty-fix": "prettier --write src/",
-		"storybook": "start-storybook -p 6006"
+		"storybook": "start-storybook -p 6006",
+		"dev": "next dev",
+		"build-next": "next build",
+		"start": "next start",
+		"lint-next": "next lint"
 	},
 	"files": [
 		"dist",
@@ -56,6 +60,7 @@
 	},
 	"dependencies": {
 		"ctix": "^1.8.1",
-		"moment": "^2.29.4"
+		"moment": "^2.29.4",
+		"next": "^13.1.1"
 	}
 }

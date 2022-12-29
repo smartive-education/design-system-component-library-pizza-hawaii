@@ -1,23 +1,35 @@
 {
-	"compilerOptions": {
-		"declarationDir": "dist/types",
-		"lib": ["dom", "dom.iterable", "esnext"],
-		"strict": true,
-		"esModuleInterop": true,
-		"skipLibCheck": true,
-		"sourceMap": true,
-		"declaration": true,
-		"forceConsistentCasingInFileNames": true,
-		"outDir": "dist",
-		"rootDir": "src",
-		"baseUrl": ".",
-		"moduleResolution": "NodeNext",
-		"allowSyntheticDefaultImports": true,
-		"allowJs": true,
-		"jsx": "react",
-		"module": "esnext",
-		"target": "esnext",
-		"resolveJsonModule": true
-	},
-	"include": ["src/**/*"]
+  "compilerOptions": {
+    "declarationDir": "dist/types",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist",
+    "rootDir": "src",
+    "baseUrl": ".",
+    "moduleResolution": "NodeNext",
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "jsx": "preserve",
+    "module": "esnext",
+    "target": "esnext",
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "incremental": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
